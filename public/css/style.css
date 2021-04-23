@@ -42,7 +42,8 @@
 }
 
 .banner img {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
+    padding-bottom: 30px;
     cursor: pointer;
 }
 
@@ -160,7 +161,7 @@
     background-image: url('/assets/backgrounds/c_image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    /* padding: 20px; */
+    padding: 20px;
     text-align: center;
 }
 .contact-us h3 {
@@ -172,21 +173,38 @@
     color: var(--text-color);
 } 
 
-.contact-info-field {
-    height: auto;
-    display: inline-block;
-    align-items: center;
+input {
+    background: transparent;
+    border: 1px solid var(--text-color);
+    line-height:2rem;
+    color: var(--text-color);
+    outline: none;
+
 }
 
-.contact-us input {
-    width: 300px;
-    line-height:2rem;
+.user-data {
+    padding: 20px;
+    line-height: 2rem;
+}
+
+.name {
+    margin-right: 10px;
+}
+
+.user-data input {
+    width: 290px;
+    height: 3rem;
+}
+
+
+.text-area {
+    width:600px;
+    height: 150px;
     background: transparent;
-    color: var(--text-color);
-    border: 1px solid var(--text-color);
     margin: 10px;
-    align-items: center;
-    color: white;
+    justify-content: center;
+    margin-bottom: 60px;
+
 }
 
 input::placeholder {
@@ -197,4 +215,135 @@ input::placeholder {
     padding: 5px;
 }
 
+/* FOOTER  */
+.footer {
+    background-color: var(--color-primary);
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
 
+.icons {
+    display: inline;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.icons img:hover {
+    transition: 3s fadeIn;
+    opacity: .4;
+}
+
+.footer p {
+    text-transform: uppercase;
+    letter-spacing: .25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+/* SMALL SCREEN DEVICES ONLY  */
+
+@media only screen and (max-width: 768px) {
+
+    /* bannar */
+    .logo a img{
+        margin-top: 160px;
+        margin-bottom: 40px;
+        /* font-size: 12px !important; */
+        cursor: pointer;
+        width: 50px;
+        height: 80px;
+    }
+    
+    .banner {
+        background-image: url('/assets/backgrounds/h_img.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        align-items: center;
+        color: var(--text-color);
+    }
+
+    .banner h1 {
+        font-size: 40px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        font-weight: 500;
+    }
+    
+    .banner p {
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: .25rem;
+        margin-bottom: 80px;
+    }
+    
+    .banner img {
+        margin-bottom: 80px;
+        padding-bottom: 30px;
+        cursor: pointer;
+    }
+
+    /* about-us | services  */
+    .about-us p {
+        font-size: 16px;
+        font-weight: 200;
+        margin-bottom: 15px;
+    }
+
+    .services p {
+        font-size: 14px;
+        font-weight: lighter;
+        padding: 10px;
+    }
+
+    .our-work img {
+        width: 40px;
+        height: 60;
+        margin-top: 10px;
+    }
+
+    /* portfolio  */
+
+    .portfolio img {
+        width: 100%;
+        padding: 3px;
+        margin-bottom: 30px;
+    }
+
+    .user-data {
+        width: 100%;
+        padding: 20px;
+        line-height: 2rem;
+    }
+    .email {
+        margin-left: -10px;
+    }
+    .name {
+        margin-bottom: 10px;
+    }
+    
+    .user-data input {
+        width: 300px;
+        height: 3rem;
+    }
+
+    .text-area {
+        width:80%;
+        height: 150px;
+        background: transparent;
+        margin: 10px;
+        justify-content: center;
+    }
+    
+}
