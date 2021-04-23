@@ -1,0 +1,159 @@
+
+
+:root {
+    --color-primary:#eff0e0;
+    --text-color:#fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* BANNER  */
+.banner {
+    background-image: url('/assets/backgrounds/h_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.logo a img{
+    margin-top: 160px;
+    margin-bottom: 40px;
+    font-size: 14px !important;
+    cursor: pointer;
+}
+
+.banner h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.banner p {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .25rem;
+    margin-bottom: 80px;
+}
+
+.banner img {
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+/* ABOUT-US */
+
+.about-us {
+    background-color: var(--color-primary);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.about-us h3 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: .25rem;
+    font-size: 30px;
+}
+
+.about-us p {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.p-one {
+    padding-bottom: 20px;
+}
+
+/* SERVICES  */
+.services {
+    background-image: url('/assets/backgrounds/s_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--text-color);
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.services h3  {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    font-weight: 600;
+    letter-spacing: .25rem;
+    font-size: 30px;
+}
+
+.services p {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: lighter;
+    padding-bottom: 40px;
+}
+
+/* OUR WORK  */
+.our-work {
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+}
+
+.our-work h3 {
+    font-weight: 600;
+    letter-spacing: .25rem;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.our-work h4 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+/* PORTFOLIO  */
+.portfolio {
+    display: flex;
+    background-color: var(--color-primary) !important;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+
+.portfolio h3 {
+    font-weight: 600;
+    letter-spacing: .25rem;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    opacity: .6;
+}
+
+.portfolio img {
+    width: 250px;
+    padding: 3px;
+    margin-bottom: 30px;
+}
+
+/* CONTACT-US */
+
